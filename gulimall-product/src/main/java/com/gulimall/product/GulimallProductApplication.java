@@ -15,6 +15,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
   *      2）配置MyBatis - plus
  *          1.使用Map普洱Scan
  *          2.告诉 myBatis-plus sql映射文件位置
+ *
+ * 2. 逻辑删除
+ *      1）配置逻辑删除的规则    （高版本可省略）
+ *      2）配置逻辑删除的组件Bean （高版本可省略）
+ *      3）加上逻辑删除注解 @TableLogic 到Bean上
  */
 @MapperScan("com.gulimall.product.dao")
 @SpringBootApplication
